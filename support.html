@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Поддержка — Metrotime</title>
+  <meta name="description" content="Поддержка пользователей приложения Metrotime." />
+  <meta name="theme-color" content="#070a18" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name">Metrotime</span>
+      </a>
+      <div style="flex:1"></div>
+      <a class="btn btn--ghost" href="index.html">На главную</a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Поддержка</h2>
+      <p class="muted">Шаблон страницы поддержки (подходит для App Store Connect).</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Написать в поддержку</h3>
+          <p>Email: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></p>
+          <p>Telegram: <a href="TELEGRAM_LINK" target="_blank" rel="noopener">TELEGRAM_LINK</a></p>
+        </article>
+        <article class="card">
+          <h3>Частые вопросы</h3>
+          <p>Добавьте ссылку на FAQ или расширьте блок на этой странице.</p>
+        </article>
+        <article class="card">
+          <h3>Версия и устройство</h3>
+          <p>В обращении укажите версию приложения, модель устройства и iOS, а также скриншоты ошибки.</p>
+        </article>
+      </div>
+
+      <div class="note" style="margin-top:18px">
+        <div class="note__title">Быстрая форма (без сервера)</div>
+        <div class="note__body">
+          Если нужен веб-формуляр без бэкенда: подключим Formspree или Netlify Forms.
+          Если хотите полностью «в экосистеме» — добавим Firebase Function и сохранение тикетов в Firestore.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="footer__meta">
+          <a href="index.html">Главная</a>
+          <span class="sep">•</span>
+          <a href="privacy.html">Политика</a>
+        </div>
+      </div>
+      <div class="footer__right">
+        <a class="btn btn--ghost" href="index.html">Назад</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

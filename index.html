@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metrotime — учёт смен и зарплаты</title>
+  <meta name="description" content="Metrotime помогает учитывать смены, норму и заработок. Быстро, наглядно, офлайн." />
+  <meta name="theme-color" content="#070a18" />
+  <meta property="og:title" content="Metrotime — учёт смен и зарплаты" />
+  <meta property="og:description" content="Учёт смен, норма, заработок, виджеты и погода — всё в одном приложении." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name">Metrotime</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#features">Возможности</a>
+        <a href="#screens">Скриншоты</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Поддержка</a>
+      </nav>
+
+      <a class="btn btn--primary topbar__cta" href="APP_STORE_LINK" target="_blank" rel="noopener">Скачать</a>
+
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-menu hidden>
+      <div class="container mobile-menu__inner">
+        <a href="#features">Возможности</a>
+        <a href="#screens">Скриншоты</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Поддержка</a>
+        <a class="btn btn--primary" href="APP_STORE_LINK" target="_blank" rel="noopener">Скачать</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="bg">
+        <div class="bg__blob bg__blob--a"></div>
+        <div class="bg__blob bg__blob--b"></div>
+        <div class="bg__stars" aria-hidden="true"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="badge">iOS • SwiftUI • Виджеты • Погода</p>
+          <h1>Время работает на&nbsp;тебя.</h1>
+          <p class="lead">
+            Metrotime — приложение для учёта смен, нормы и заработка.
+            Быстро фиксируйте график, контролируйте показатели и держите всё под рукой.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="APP_STORE_LINK" target="_blank" rel="noopener">Открыть в App Store</a>
+            <a class="btn btn--ghost" href="#features">Посмотреть возможности</a>
+          </div>
+
+          <ul class="checks" aria-label="Ключевые преимущества">
+            <li>Помесячная аналитика и нормы</li>
+            <li>Гибкие доплаты, коэффициенты и флаги смен</li>
+            <li>Виджеты: смены + текущая погода</li>
+          </ul>
+        </div>
+
+        <div class="hero__mock">
+          <div class="phone" role="img" aria-label="Макет экрана приложения">
+            <div class="phone__notch"></div>
+            <div class="phone__screen">
+              <div class="mock__header">
+                <div class="mock__title">Сегодня</div>
+                <div class="mock__pill">+12° • ☁︎</div>
+              </div>
+              <div class="mock__card">
+                <div class="mock__row"><span>Смена</span><b>Дневная</b></div>
+                <div class="mock__row"><span>Начало</span><b>08:00</b></div>
+                <div class="mock__row"><span>Конец</span><b>20:00</b></div>
+              </div>
+              <div class="mock__grid">
+                <div class="mock__mini">
+                  <div class="k">Норма</div>
+                  <div class="v">164 ч</div>
+                </div>
+                <div class="mock__mini">
+                  <div class="k">Часы</div>
+                  <div class="v">172 ч</div>
+                </div>
+                <div class="mock__mini">
+                  <div class="k">Перераб.</div>
+                  <div class="v">+8 ч</div>
+                </div>
+                <div class="mock__mini">
+                  <div class="k">Оценка</div>
+                  <div class="v">≈ 96 500 ₽</div>
+                </div>
+              </div>
+              <div class="mock__hint">Замените этот макет на реальные скриншоты ниже.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <h2>Возможности</h2>
+        <p class="muted">Сайт-визитка можно адаптировать под точный функционал вашего текущего билда.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Учёт смен</h3>
+            <p>Добавление и группировка по месяцам, быстрый просмотр «Сегодня/Смены/Норма».</p>
+          </article>
+          <article class="card">
+            <h3>Норма и доплаты</h3>
+            <p>Расчёты по правилам, флаги смен (ночные/особые), коэффициенты и надбавки.</p>
+          </article>
+          <article class="card">
+            <h3>Виджеты и WeatherKit</h3>
+            <p>Смены, ближайшие события и погода — в виджетах разных размеров.</p>
+          </article>
+          <article class="card">
+            <h3>Облако и устройства</h3>
+            <p>Синхронизация через Firebase (опционально), авторизация и сохранность данных.</p>
+          </article>
+          <article class="card">
+            <h3>Конфиденциальность</h3>
+            <p>Понятная политика, минимум данных, прозрачные разрешения.</p>
+          </article>
+          <article class="card">
+            <h3>Поддержка</h3>
+            <p>Форма обратной связи, FAQ, ссылки на Telegram/почту/сайт.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="screens">
+      <div class="container">
+        <h2>Скриншоты</h2>
+        <p class="muted">Положите 3–6 изображений в <code>assets/screens/</code> и обновите подписи.</p>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img src="assets/screens/01.png" alt="Экран: Смены" loading="lazy" />
+            <figcaption>Список смен</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/screens/02.png" alt="Экран: Сегодня" loading="lazy" />
+            <figcaption>Сегодня</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/screens/03.png" alt="Экран: Норма" loading="lazy" />
+            <figcaption>Норма</figcaption>
+          </figure>
+        </div>
+
+        <div class="note">
+          <div class="note__title">Подсказка</div>
+          <div class="note__body">
+            Если вы хотите эффект «liquid glass» как в приложении — оставим темный фон и полупрозрачные карточки,
+            а скриншоты дадут «доказательство продукта».
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <details open>
+            <summary>Можно ли использовать сайт как «App Store Landing Page»?</summary>
+            <p>Да. Это одностраничник с быстрым CTA, SEO-мета и ссылками на политику/поддержку.</p>
+          </details>
+          <details>
+            <summary>Нужен ли сервер?</summary>
+            <p>Нет. Это статический сайт: GitHub Pages / Cloudflare Pages / Netlify / Vercel.</p>
+          </details>
+          <details>
+            <summary>Как заменить контент под мой билд?</summary>
+            <p>В файле <code>index.html</code> замените <code>APP_STORE_LINK</code>, тексты и блоки возможностей; скриншоты — в <code>assets/screens</code>.</p>
+          </details>
+          <details>
+            <summary>Можно добавить форму обратной связи без бэкенда?</summary>
+            <p>Да: например, Formspree/Netlify Forms (или собственный Firebase Function) — подключается за 5–10 минут.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="contact">
+      <div class="container cta">
+        <div>
+          <h2>Поддержка и контакты</h2>
+          <p class="muted">Ссылки ниже — шаблоны. Подставьте свои контакты.</p>
+        </div>
+
+        <div class="cta__grid">
+          <a class="cta__item" href="mailto:SUPPORT_EMAIL">
+            <span class="cta__k">Email</span>
+            <span class="cta__v">SUPPORT_EMAIL</span>
+          </a>
+          <a class="cta__item" href="TELEGRAM_LINK" target="_blank" rel="noopener">
+            <span class="cta__k">Telegram</span>
+            <span class="cta__v">@metrotime</span>
+          </a>
+          <a class="cta__item" href="privacy.html">
+            <span class="cta__k">Документы</span>
+            <span class="cta__v">Политика конфиденциальности</span>
+          </a>
+        </div>
+
+        <div class="cta__actions">
+          <a class="btn btn--primary" href="APP_STORE_LINK" target="_blank" rel="noopener">Скачать Metrotime</a>
+          <a class="btn btn--ghost" href="support.html">Страница поддержки</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="brand brand--small">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__name">Metrotime</span>
+        </div>
+        <div class="footer__meta">
+          <span>© <span id="year"></span> Metrotime</span>
+          <span class="sep">•</span>
+          <a href="privacy.html">Политика</a>
+          <span class="sep">•</span>
+          <a href="support.html">Поддержка</a>
+        </div>
+      </div>
+      <div class="footer__right">
+        <a class="btn btn--ghost" href="#top">Наверх</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
